@@ -11,7 +11,7 @@ namespace AMGF
 		{
 			InitializeComponent();
 
-			MainPage = new Registro();
+            MainPage = new Login();
 		}
 
 		protected override void OnStart ()
