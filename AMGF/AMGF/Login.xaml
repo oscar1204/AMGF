@@ -3,10 +3,39 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AMGF.Login">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout
+            BackgroundColor="LightCyan"
+            >
+
+
+            <Label
+               Text="Login"
+               TextColor="MediumSlateBlue"
+                HorizontalOptions="Center"
+               FontSize="Medium">
+              </Label>
+            <Entry
+                x:Name="EntUsuario"
+                Text="Usuario"
+                TextColor="AliceBlue"
+                HorizontalOptions="FillAndExpand"
+                BackgroundColor="DarkGreen">
+               </Entry>
+            <Entry
+                x:Name="EntPassword"
+                Text="Password"
+                TextColor="LightCoral"
+                HorizontalOptions="FillAndExpand"
+                BackgroundColor="YellowGreen">
+               </Entry>
+            <Button
+                Text="IniciarCesion"
+                TextColor="Brown"
+                HorizontalOptions="FillAndExpand"
+                CornerRadius="45"
+                BorderRadius="34"
+                >
+               </Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
