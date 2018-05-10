@@ -3,10 +3,50 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AMGF.Registro">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout
+            BackgroundColor="DarkBlue"
+            >
+            <Label
+                Text="registro"
+                TextColor="LightYellow"
+                FontSize="Medium"
+               BackgroundColor="DarkGoldenrod"
+                FontAttributes="Italic"
+                HorizontalOptions="Center">
+               </Label>
+            <Entry
+                 x:Name="EntNobre"
+                 Text="Nombre"
+                 TextColor="LightGreen"
+                 FontSize="Medium"
+                 BackgroundColor="RosyBrown"
+                HorizontalOptions="FillAndExpand"
+                >
+              </Entry>
+            <Entry
+                x:Name="EntTelefono"
+                Text="Telefono"
+                TextColor="SaddleBrown"
+                HorizontalOptions="FillAndExpand"
+                BackgroundColor="OliveDrab">
+              </Entry>
+            <Entry
+                x:Name="EntDireccion"
+                Text="Direccion"
+                TextColor="MediumSlateBlue"
+                HorizontalOptions="FillAndExpand"
+                BackgroundColor="IndianRed">
+            </Entry>
+            <Button 
+                Text="Regstrarse"
+                TextColor="Bisque"
+                HorizontalOptions="FillAndExpand"
+                BorderRadius="23"
+                CornerRadius="45"
+                BackgroundColor="Blue"
+                >
+                
+            </Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
