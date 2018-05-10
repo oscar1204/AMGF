@@ -2,11 +2,42 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AMGF.MenuInicio">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+    <ContentPage.Content
+       
+        >
+        <StackLayout
+            BackgroundColor="LightCoral"
+            >
+            <Label
+                Text="MenuInicio"
+                TextColor="AntiqueWhite"
+                HorizontalOptions="Center">
+              </Label>
+            <Button
+                Text="Inicio"
+                TextColor="GreenYellow"
+                CornerRadius="45"
+                BorderRadius="34"></Button>
+            <Button
+                Text="Categorias"
+                TextColor="Accent"
+                CornerRadius="45"
+                BorderRadius="34"></Button>
+            <Button
+                Text="Ofertas"
+                TextColor="Yellow"
+                CornerRadius="45"
+                BorderRadius="34"></Button>
+            <Button
+                Text="Chat"
+                TextColor="DarkRed"
+                CornerRadius="45"
+                BorderRadius="34"></Button>
+            <Button
+                Text="Mas"
+                TextColor="Green"
+                CornerRadius="45"
+                BorderRadius="34"></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
