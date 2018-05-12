@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AMGF.Administrador">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label
+                Text="Administrador"
+                TextColor="BlanchedAlmond"
+                FontSize="Medium">
+              </Label>
+            <Label
+                Text="InicioComoAdministrador"
+                TextColor="ForestGreen"
+                FontSize="Medium"
+                HorizontalOptions="Center"
+                >
+               </Label>
+            <Entry
+                x:Name="Usuario"
+                Text="Usuario"
+                TextColor="Blue"
+                HorizontalOptions="FillAndExpand"
+                BackgroundColor="Green">
+              </Entry>
+            <Entry
+                x:Name="Password"
+                Text="Password"
+                TextColor="DarkGreen"
+                HorizontalOptions="FillAndExpand"
+                BackgroundColor="CadetBlue">
+               </Entry>
+            <Button
+                Text="IniciarCesion"
+                TextColor="Salmon"
+                FontSize="Default"
+                CornerRadius="34"
+                BorderRadius="32"
+                ></Button>
+           
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

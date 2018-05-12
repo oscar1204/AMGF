@@ -11,7 +11,7 @@ namespace AMGF
 		{
 			InitializeComponent();
 
-            MainPage = new Configuracion();
+            MainPage = new CargueDeProductos();
 		}
 
 		protected override void OnStart ()
