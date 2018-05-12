@@ -11,7 +11,7 @@ namespace AMGF
 		{
 			InitializeComponent();
 
-            MainPage = new MenuInicio();
+            MainPage = new Configuracion();
 		}
 
 		protected override void OnStart ()
